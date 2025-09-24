@@ -1,0 +1,3 @@
+# Spec Summary (Lite)
+
+Create a modern startup landing page for Tikel that introduces the product vision, showcases key features, and establishes company credibility through mission/vision sections and compelling design. This foundational website will serve as the primary entry point for potential users before the core app features are developed, featuring hero section, features overview, mission/vision, and waitlist signup.
