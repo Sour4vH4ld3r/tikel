@@ -28,7 +28,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
         <div className="logo">
-          <span className="gradient-text">&lt;/&gt;</span> Portfolio
+          <span className="gradient-text">SH</span>
         </div>
 
         <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>

@@ -37,11 +37,11 @@ export default function Hero() {
           </motion.div>
 
           <motion.h1 variants={itemVariants}>
-            Hi, I'm <span className="gradient-text">Your Name</span>
+            Hi, I'm <span className="gradient-text">Sourav Halder</span>
           </motion.h1>
 
           <motion.h2 className="hero-subtitle" variants={itemVariants}>
-            Full Stack Developer & Creative Designer
+            Full Stack Developer
           </motion.h2>
 
           <motion.p className="hero-description" variants={itemVariants}>

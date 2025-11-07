@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-text">
             <p>
-              Made with <FaHeart className="heart-icon" /> by Your Name
+              Made with <FaHeart className="heart-icon" /> by Sourav Halder
             </p>
             <p className="copyright">© {currentYear} All rights reserved.</p>
           </div>
