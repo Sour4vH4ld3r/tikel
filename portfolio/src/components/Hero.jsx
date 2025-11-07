@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import LaserFlow from './LaserFlow';
 import './Hero.css';
 
 export default function Hero() {
@@ -25,6 +26,7 @@ export default function Hero() {
 
   return (
     <section id="hero" className="hero section">
+      <LaserFlow />
       <div className="container">
         <motion.div
           className="hero-content"

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Loader from './components/Loader';
+import SplashCursor from './components/SplashCursor';
 import ThreeBackground from './components/ThreeBackground';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+      <SplashCursor />
       {loading && <Loader onLoadingComplete={handleLoadingComplete} />}
       {!loading && (
         <div className="app">

@@ -42,16 +42,22 @@ export default function Loader({ onLoadingComplete }) {
             className="logo-s"
           >
             <motion.path
-              d="M 100 30
-                 C 130 30, 150 45, 150 70
-                 C 150 90, 135 100, 100 100
-                 C 65 100, 50 110, 50 130
-                 C 50 155, 70 170, 100 170
-                 C 120 170, 140 160, 150 140"
+              d="M 140 50
+                 C 140 35, 125 25, 100 25
+                 C 75 25, 60 35, 60 50
+                 C 60 65, 75 75, 100 75
+                 L 110 75
+                 C 125 75, 140 85, 140 100
+                 C 140 120, 120 135, 100 135
+                 L 100 135
+                 C 80 135, 60 145, 60 165
+                 C 60 180, 75 190, 100 190
+                 C 125 190, 140 180, 140 165"
               fill="none"
               stroke="url(#gradient)"
-              strokeWidth="12"
+              strokeWidth="14"
               strokeLinecap="round"
+              strokeLinejoin="round"
               initial={{ pathLength: 0, opacity: 0 }}
               animate={{ pathLength: 1, opacity: 1 }}
               transition={{
